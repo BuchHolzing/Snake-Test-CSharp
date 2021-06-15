@@ -8,6 +8,10 @@ namespace Snakes
         public Form1()
         {
             InitializeComponent();
+
+            var Field = new Field();
+           // this.Controls
+
         }
     }
 }
