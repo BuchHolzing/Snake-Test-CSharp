@@ -10,7 +10,6 @@ namespace Snakes
             InitializeComponent();
 
             var Field = new Field();
-           // this.Controls
 
         }
     }

@@ -10,7 +10,6 @@ d:\файлы\visual studio 2015\Projects\Snakes\Snakes\obj\Debug\Snakes.csprojR
 C:\Users\Rodion\Desktop\Snakes\Snakes\bin\Debug\Snakes.exe.config
 C:\Users\Rodion\Desktop\Snakes\Snakes\bin\Debug\Snakes.exe
 C:\Users\Rodion\Desktop\Snakes\Snakes\bin\Debug\Snakes.pdb
-C:\Users\Rodion\Desktop\Snakes\Snakes\obj\Debug\Snakes.csproj.AssemblyReference.cache
 C:\Users\Rodion\Desktop\Snakes\Snakes\obj\Debug\Snakes.Form1.resources
 C:\Users\Rodion\Desktop\Snakes\Snakes\obj\Debug\Snakes.Properties.Resources.resources
 C:\Users\Rodion\Desktop\Snakes\Snakes\obj\Debug\Snakes.csproj.GenerateResource.cache

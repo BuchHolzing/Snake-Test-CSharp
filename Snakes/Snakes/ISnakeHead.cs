@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Snakes
 {
-    class SnakeBody : ISnakeBody
+    interface ISnakeHead
     {
+        void MoveHead();
+        void EatFruit();
+        void EatItSelf();
+        void Bump();
     }
 }

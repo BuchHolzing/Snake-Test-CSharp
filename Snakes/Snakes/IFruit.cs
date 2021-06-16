@@ -4,6 +4,6 @@ namespace Snakes
 {
     interface IFruit
     {
-        void GenerationFruit(PictureBox fruit);
+        void GenerationFruit();
     }
 }

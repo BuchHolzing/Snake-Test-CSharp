@@ -3,24 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Drawing;
 
 namespace Snakes
 {
-    public class Field : IField
+    class SnakeHead : ISnakeHead
     {
-        public void Fruit()
+        public void Bump()
         {
             throw new NotImplementedException();
         }
 
-        public void GenerationMap()
+        public void EatFruit()
         {
             throw new NotImplementedException();
         }
 
-        public void Snake()
+        public void EatItSelf()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void MoveHead()
         {
             throw new NotImplementedException();
         }
