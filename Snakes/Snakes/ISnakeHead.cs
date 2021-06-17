@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Snakes
 {
-    class SnakeBody : ISnakeBody
+    public interface ISnakeHead
     {
+        IPropertiesSnake PropertiesSnake();
     }
 }
