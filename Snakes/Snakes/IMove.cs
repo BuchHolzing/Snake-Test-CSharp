@@ -1,10 +1,15 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Drawing;
+using System.Windows.Forms;
 
 namespace Snakes
 {
-    interface IMove
+    public interface IMove
     {
-        void Move(PictureBox[] _snake, int _score);
-        void OnKeyboardPressed(object sender, KeyEventArgs e);
+       
     }
 }
