@@ -1,22 +1,28 @@
-﻿using System.Drawing;
-using System.Windows.Forms;
-
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Snakes
 {
-    class SnakeBody : ISnakeBody
+    public class SnakeBody : ISnakeBody
     {
-        PictureBox[] _snakeBody;
+        private SortedDictionary<int, IPoint> _points;
 
-        PictureBox[] ISnakeBody.SnakeBody(PictureBox[] snakeBody)
+        public SnakeBody()
         {
-            snakeBody[0] = new PictureBox();
-            snakeBody[0].Location = new Point(200, 200);
-            snakeBody[0].Size = new Size(20, 20);
-            snakeBody[0].BackColor = Color.Red;
-            _snakeBody = snakeBody;
+            _points = new SortedDictionary<int, IPoint>();
+        }
 
-            return _snakeBody;
-        }     
+        public SnakeBody(SortedDictionary<int, IPoint> points)
+        {
+            _points = points;
+        }
+
+        public SortedDictionary<int, IPoint> Points()
+        {
+            return _points;
+        }
     }
 }

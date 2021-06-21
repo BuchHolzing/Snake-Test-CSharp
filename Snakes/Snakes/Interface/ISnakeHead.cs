@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Snakes
 {
-    public interface IField
+    public interface ISnakeHead
     {
-        int width { get; }
-        int height { get; }
-        int sizeOfSides { get; }
-        void Drawing();
+        IPoint Point();
+        Heading Heading();
     }
 }
