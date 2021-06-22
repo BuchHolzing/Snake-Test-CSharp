@@ -17,3 +17,13 @@ C:\Users\Rodion\Desktop\Snakes\Snakes\obj\Debug\Snakes.csproj.CoreCompileInputs.
 C:\Users\Rodion\Desktop\Snakes\Snakes\obj\Debug\Snakes.exe
 C:\Users\Rodion\Desktop\Snakes\Snakes\obj\Debug\Snakes.pdb
 C:\Users\Rodion\Desktop\Snakes\Snakes\obj\Debug\Snakes.csproj.AssemblyReference.cache
+D:\Файлы\GitHub\Snake-Test-CSharp\Snakes\Snakes\bin\Debug\Snakes.exe.config
+D:\Файлы\GitHub\Snake-Test-CSharp\Snakes\Snakes\bin\Debug\Snakes.exe
+D:\Файлы\GitHub\Snake-Test-CSharp\Snakes\Snakes\bin\Debug\Snakes.pdb
+D:\Файлы\GitHub\Snake-Test-CSharp\Snakes\Snakes\obj\Debug\Snakes.csproj.AssemblyReference.cache
+D:\Файлы\GitHub\Snake-Test-CSharp\Snakes\Snakes\obj\Debug\Snakes.Form1.resources
+D:\Файлы\GitHub\Snake-Test-CSharp\Snakes\Snakes\obj\Debug\Snakes.Properties.Resources.resources
+D:\Файлы\GitHub\Snake-Test-CSharp\Snakes\Snakes\obj\Debug\Snakes.csproj.GenerateResource.cache
+D:\Файлы\GitHub\Snake-Test-CSharp\Snakes\Snakes\obj\Debug\Snakes.csproj.CoreCompileInputs.cache
+D:\Файлы\GitHub\Snake-Test-CSharp\Snakes\Snakes\obj\Debug\Snakes.exe
+D:\Файлы\GitHub\Snake-Test-CSharp\Snakes\Snakes\obj\Debug\Snakes.pdb

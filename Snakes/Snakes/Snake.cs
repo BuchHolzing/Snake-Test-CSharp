@@ -37,8 +37,8 @@ namespace Snakes
 
         private void MoveHead(string direction, ISnakeHead _oldHead)
         {
-           var x = _oldHead.Point().X();
-           var y = _oldHead.Point().Y();
+            var x = _oldHead.Point().X();
+            var y = _oldHead.Point().Y();
 
             switch (direction)
             {
@@ -62,12 +62,14 @@ namespace Snakes
             var _oldBody = _body;
             var points = new SortedDictionary<int, IPoint>();
             points.Add(0, _oldHeadPoint);
-            for (int i = 1; i < _oldBody.Points().Count; i++)
+            if (_oldBody.Points().Count != 0)
             {
-                points.Add(i, _oldBody.Points()[i - 1]);
+                for (int i = 1; i < _oldBody.Points().Count; i++)
+                {
+                    points.Add(i, _oldBody.Points()[i - 1]);
+                }
+                _body = new SnakeBody(points);
             }
-            _body = new SnakeBody(points);
         }
-
     }
 }

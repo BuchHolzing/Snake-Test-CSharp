@@ -11,6 +11,12 @@ namespace Snakes
     public class Field : IField
     {
         private ISnake _snake;
+        private IFruit _fruit;
+
+        public IFruit Fruit()
+        {
+            return _fruit;
+        }
 
         public ISnake Snake()
         {

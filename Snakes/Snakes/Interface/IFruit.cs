@@ -2,8 +2,8 @@
 
 namespace Snakes
 {
-    interface IFruit
+   public interface IFruit
     {
-        void GenerationFruit();
+        IBodyFruit Fruits();
     }
 }

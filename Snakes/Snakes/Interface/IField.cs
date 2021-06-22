@@ -11,6 +11,6 @@ namespace Snakes
     public interface IField
     {
         ISnake Snake();
-        //IFruit Fruit();
+        IFruit Fruit();
     }
 }
